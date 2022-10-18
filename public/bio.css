@@ -1,0 +1,126 @@
+h1{
+    text-align: center;
+    color:cornsilk;
+}
+
+body {
+    color:azure;
+    background: url(https://media.gettyimages.com/id/1178181575/video/4k-beautiful-waving-lines-background-loopable.jpg?s=640x640&k=20&c=PGEGy-3M5_ZKJZEdR2VCL7QdxFYIviPUIfsEKt4zG2I=) ;
+    background-size: cover;
+}
+
+form {
+    width: 700px;
+    margin: auto;
+    background-color:teal;
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+
+textarea {
+    resize: none;
+}
+
+#genders {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#input-hobby {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.mb-3 {
+    margin-bottom: 1rem !important;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-control{
+    background-color:azure;
+    border-radius: 8px;
+}
+
+.tabel th {
+    border: 2px solid #000;
+    padding: 10px 20px 10px 20px;
+    background-color: #fff;
+    padding: 20px;
+  }
+
+  .tabel {
+    margin: auto;
+    margin-top: 40px;
+    background-color: teal;
+    padding: 30px;
+    border-radius: 30px;
+    color:#000;
+  }
+
+  .tabel td {
+    border: 2px solid #000;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .button-74 {
+    margin-bottom: 8px;
+    margin-top: 8px;
+
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 10px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 0 10px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+input:hover{
+    background-color: #fff;
+}
+
+select:hover{
+    background-color: #fff;
+}
+
+
+form {
+    margin: auto;
+    background-color:teal;
+    border-radius: 20px;
+    padding: 20px 30px;
+    box-shadow: #422800 3px 3px 1px 1px;
+}
+
+.button-74:hover {
+    background-color: #fff;
+}
+
+.button-74:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+@media (min-width: 78px) {
+  .button-74 {
+    min-width: 10px;
+    padding: 0 5px;
+  }
+}
